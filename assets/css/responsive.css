@@ -1,0 +1,133 @@
+@media only screen and (max-width: 1200px) {
+
+	/*SITE CONTENT START*/
+	.site-content .registration .registration-form .birthday .select-groups {
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+		overflow: hidden;
+	}
+	.site-content .registration .registration-form .birthday .select-link {
+		width: 100%;
+		float: none;
+		margin-left: 0%;
+	}
+	/*SITE CONTENT END*/
+
+	/*FOOTER SECTION START*/
+	.footer-section .links ul {
+		width: 100%;
+	}
+	.footer-section .links ul li {
+		width: 12%;
+	}
+	/*FOOTER SECTION END*/
+}
+
+@media only screen and (max-width: 992px) {
+
+	/*HEADER START*/
+	.site-navigation .logo {
+		width: 100%;
+		float: none;
+	}
+	.site-navigation .logo h1 {
+		font-size: 1.8em;
+	}
+	.site-navigation .login-section {
+		width: 100%;
+		overflow: hidden;
+		float: none;
+		margin: 15px 0 30px;
+	}
+	/*HEADER END*/
+
+	/*SITE CONTENT START*/
+	.site-content .share-section h2 {
+		font-size: 1.3em;
+	}
+	.site-content .registration .title h2 {
+		font-size: 1.3em;
+	}
+	/*SITE CONTENT END*/
+
+	/*FOOTER SECTION START*/
+	.footer-section .links ul li {
+		width: 15%;
+	}
+	/*FOOTER SECTION END*/
+}
+
+@media only screen and (max-width: 768px) {
+
+	/*HEADER START*/
+	.site-navigation .logo {
+		text-align: center;
+	}
+	.site-navigation .logo h1 {
+		font-size: 1.5em;
+	}
+	.site-navigation .login-section {
+		width: 100%;
+		overflow: hidden;
+		float: none;
+		margin: 15px 0 30px;
+	}
+	.site-navigation .login-section .username,
+	.site-navigation .login-section .password {
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+	}
+	.site-navigation .login-section input {
+		width: 100%;
+	}
+	.site-navigation .login-section .login {
+		width: 40%;
+		float: none;
+		margin-top: -10px;
+	}
+	/*HEADER END*/
+
+	/*SITE CONTENT START*/
+	.site-content .share-section {
+		display: none;
+	}
+	.site-content .registration {
+		width: 100%;
+		height: auto;
+		padding: 20px 0;
+		float: none;
+	}
+	.site-content .registration .title h2 {
+		font-size: 1.1em;
+	}
+	.site-content .registration .title p {
+		font-size: .9em;
+	}
+	.site-content .registration .registration-form .birthday .select-groups {
+		width: 100%;
+		float: none;
+	}
+	.site-content .registration .registration-form .birthday .select-link {
+		width: 100%;
+		float: none;
+		margin-left: 0%;
+	}
+	/*SITE CONTENT END*/
+
+	/*FOOTER SECTION START*/
+	.footer-section .links ul li {
+		width: 19%;
+	}
+	/*FOOTER SECTION END*/
+}
+
+@media only screen and (max-width: 576px) {
+
+	/*FOOTER SECTION START*/
+	.footer-section .links ul li {
+		width: 25%;
+	}
+	/*FOOTER SECTION END*/
+}
